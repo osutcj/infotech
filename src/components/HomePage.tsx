@@ -15,7 +15,7 @@ interface HomePageProps {
 
 export default function HomePage({ dictionary }: HomePageProps) {
   return (
-    <div className="min-h-screen relative overflow-hidden bg-[#0c091e] overscroll-none">
+    <div className="min-h-screen relative overflow-hidden bg-[#0c091e]">
       <Navbar dictionary={dictionary} />
 
       <Hero dictionary={dictionary} />
