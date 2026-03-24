@@ -49,7 +49,7 @@ export default function Hero({ dictionary }: HeroProps) {
     >
       <div className="relative max-w-6xl w-full px-2">
         <h1 className="text-3xl md:text-5xl font-semibold text-white mb-4 font-display">
-          {t.hero.title}
+          Cel mai bun proiect
         </h1>
         <p className=" md:text-xl  text-gray-200 max-w-4xl mx-auto">
           {t.hero.tagline}
