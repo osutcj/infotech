@@ -20,9 +20,9 @@
         },
         "nextEvent": {
           "title": "Next Event",
-          "eventName": "Training Internship 101",
-          "date": "November 27, 2025",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSc0DiZod8r5GgNt7XX2n419wj3DFEeAC059NgemiDEJh9BJqw/viewform?usp=header",
+          "eventName": "From Circuits to Careers",
+          "date": "14th of April 2026",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLScutarDMZewHM3Dq-CBeNg-FwmMppcJPci8JUbGn8zM0glGWw/viewform",
           "countdown": {
             "days": "Days",
             "hours": "Hours",
@@ -49,7 +49,8 @@
         "infonight": "InfoNight",
         "infoweek": "InfoWeek",
         "trainings": "Trainings",
-        "contest": "ContestNight"
+        "contest": "ContestNight",
+        "interviews": "Mock Interviews"
       }
     },
     "team": {
@@ -83,29 +84,14 @@
     },
     "trainingEvents": {
       "1": {
-        "title": "Financial Education",
-        "date": "4th of December",
-        "description": "Learn essential personal finance skills with Olimpia Pop. Master budgeting, expense management, and smart saving habits. Gain confidence in making informed financial decisions for long-term stability."
+        "title": "Internship 101: CVs, Keywords & First Steps",
+        "date": "27th of December",
+        "description": "During the training, key aspects related to the hiring process were covered at a high level. It started with explaining the terminology used in job postings and how to properly understand specific requirements. The recruitment process within a company was also presented, highlighting the main steps a candidate goes through. There was a focus on how academic activities – such as projects, laboratories, and volunteering – could be evaluated and turned into relevant experiences for a CV. Participants gained an overview of the basic skill sets required in fields such as electrical, mechanical, civil engineering, and IT. An important part of the session was dedicated to building an effective CV, covering structure, wording, and how to tailor it to a specific job. The training also included a practical exercise where participants, working in teams, created a CV for a fictional person. Finally, the “6 seconds rule” was discussed, emphasizing how to make a strong first impression from the very beginning."
       },
       "2": {
-        "title": "Work-Life Balance",
-        "date": "25 & 28 November",
-        "description": "Discover strategies for healthier work-life balance with psychologist Denisa Nita. Learn to manage priorities, reduce stress, and overcome impostor syndrome. Build the skills needed for long-term well-being and career success."
-      },
-      "3": {
-        "title": "How to Interview",
-        "date": "November 21st, 20:00",
-        "description": "Master job interview skills with Cristina Gogozan. Learn preparation techniques, company research, and confident communication. Gain practical tools to make a strong impression and stand out in any interview."
-      },
-      "4": {
-        "title": "How to Start a Startup",
-        "date": "November 7th, 18:00",
-        "description": "Explore entrepreneurship fundamentals with Georgina Lupu. Learn to identify business ideas, create plans, and secure funding. Discover the challenges and mindset needed for startup success."
-      },
-      "5": {
-        "title": "How to CV",
-        "date": "October 30th, 18:00",
-        "description": "Create compelling CVs with Mariana Irimia. Learn to highlight skills, avoid common mistakes, and tailor content for different industries. Master the art of making your qualifications stand out to employers."
+        "title": "Own Your Minute – Win the Interview",
+        "date": "9th of December",
+        "description": " During the session, practical aspects related to interview behavior were also discussed. The participants were introduced to building a clear and compelling elevator pitch, under the concept of “Own Your Minute.” Examples of relevant and insightful questions that candidates can ask at the end of an interview were also provided. Emphasis was placed on maintaining the right attitude during the interview, including non-verbal communication, managing emotions, and active listening. Common mistakes encountered in interviews were highlighted, along with practical recommendations on how to avoid them. Depending on the available time, a short mock interview demonstration was also conducted."
       }
     },
     "contest": {
@@ -126,18 +112,19 @@
     },
     "infonight": {
       "title": "What to expect at InfoNight?",
-      "summary": "Ready to launch your career? Join InfoNight where you’ll connect directly with top companies, industry professionals, and mentors who can guide your next career steps.",
+      "summary": "",
       "expandableContent": {
         "paragraphs": [
-          "Whether you’re looking for an internship, a full-time job, or career advice, this event offers real opportunities and personalized CV feedback."
+          "The InfoNight event, held on April 1st 2026 at HUB UTCN, brought together over 200 students in an interactive setting focused on career opportunities. Participants had the chance to explore internship offers and engage directly with company representatives, gaining valuable insights into industry expectations and the steps needed to build a strong professional path.",
+          "The atmosphere was dynamic and open, fostering meaningful connections between the academic and professional environments. InfoNight successfully achieved its goal of bringing students closer to real opportunities, offering both inspiration and practical resources for their future development."
         ],
         "benefits": {
           "title": "Why attend:",
           "items": [
-            "Talk directly with top recruiters and industry experts.",
-            "Get personalized CV feedback from HR specialists.",
+            "Engage with experts and recruiters from top companies.",
+            "Receive personalized CV feedback from HR specialists.",
             "Build valuable connections with mentors and professionals.",
-            "Enjoy a friendly atmosphere and win exciting prizes."
+            "Enjoy a relaxed atmosphere and win exciting prizes."
           ]
         },
         "conclusion": [
@@ -150,7 +137,7 @@
       }
     },
     "infoweek": {
-      "title": "What to Expect at InfoWeek?",
+      "title": "What to expect at InfoWeek?",
       "summary": "Ever wondered what a workday looks like inside a top company in Cluj? InfoWeek, organized by InfoTech, gives you the opportunity to explore from the inside how some of the most renowned companies in Cluj-Napoca and nearby areas operate.",
       "expandableContent": {
         "paragraphs": [
@@ -169,6 +156,22 @@
       "buttons": {
         "readMore": "Read More",
         "showLess": "Show Less"
+      }
+    },
+    "interviews": {
+      "title": "What to expect at Mock Interviews?",
+      "summary": "",
+      "expandableContent": {
+        "paragraphs": [
+          "The interview simulations within InfoTech were organized for students from the main UTCN branches, Electrical Engineering, Mechanical Engineering, and Civil Engineering, offering an experience as close as possible to a real interview. The sessions took place over two weeks, between March 16–19 and March 23–26.",
+          "For Electrical Engineering, students interacted with representatives from ThunderTeam and AROBS, while for Civil Engineering, Hunnebeck and Kesz were involved. In the Mechanical Engineering sessions, the interviews were conducted by Emerson.",
+          "In total, over 40 interviews were carried out, giving participants the chance to receive direct feedback and better understand what a real recruitment process looks like. The experience helped them build confidence and prepare more effectively for future opportunities."
+        ],
+        "benefits": {
+          "title": "",
+          "items": []
+        },
+        "conclusion": []
       }
     },
     "roles": {
@@ -201,9 +204,9 @@
         },
         "nextEvent": {
           "title": "Următorul Eveniment",
-          "eventName": "Training Internship 101",
-          "date": "27 noiembrie 2025",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSc0DiZod8r5GgNt7XX2n419wj3DFEeAC059NgemiDEJh9BJqw/viewform?usp=header",
+          "eventName": "From Circuits to Careers",
+          "date": "14 aprilie 2026",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLScutarDMZewHM3Dq-CBeNg-FwmMppcJPci8JUbGn8zM0glGWw/viewform",
           "countdown": {
             "days": "Zile",
             "hours": "Ore",
@@ -230,7 +233,8 @@
         "infonight": "InfoNight",
         "infoweek": "InfoWeek",
         "trainings": "Training-uri",
-        "contest": "ContestNight"
+        "contest": "ContestNight",
+        "interviews": "Simulări Interviu"
       }
     },
     "team": {
@@ -264,29 +268,14 @@
     },
     "trainingEvents": {
       "1": {
-        "title": "Educație Financiară",
-        "date": "4 decembrie",
-        "description": "Învață abilități esențiale de finanțe personale cu Olimpia Pop. Stăpânește bugetarea, gestionarea cheltuielilor și obiceiurile inteligente de economisire. Câștigă încredere în luarea deciziilor financiare informate pentru stabilitate pe termen lung."
+        "title": "Internship 101: CVs, Keywords & First Steps",
+        "date": " 27 Noiembrie",
+        "description": "În cadrul trainingului au fost abordate, în linii mari, aspecte esențiale pentru pregătirea procesului de angajare. S-a început cu explicarea terminologiei întâlnite în anunțurile de job și modul în care pot fi înțelese corect cerințele specifice. De asemenea, a fost prezentat procesul de recrutare într-o companie, evidențiind pașii principali pe care îi parcurge un candidat. S-a discutat despre cum pot fi valorificate activitățile din facultate – precum proiectele, laboratoarele sau voluntariatul – și transformate în experiențe relevante pentru CV. Participanții au primit o imagine de ansamblu asupra skill set-urilor de bază cerute în domenii precum electric, mecanic, construcții sau IT. Un punct important l-a reprezentat construirea unui CV eficient, de la structură și formulare până la adaptarea acestuia în funcție de jobul dorit. Trainingul a inclus și un exercițiu practic, în care participanții au lucrat în echipe pentru a realiza CV-ul unei persoane fictive. În final, s-a discutat despre regula „6 seconds rule” și despre cum poate un candidat să se facă remarcat încă din primele secunde."
       },
       "2": {
-        "title": "Echilibrul Viață-Muncă",
-        "date": "25 și 28 noiembrie",
-        "description": "Descoperă strategii pentru un echilibru mai sănătos între viața profesională și cea personală cu psihologul Denisa Nita. Învață să gestionezi prioritățile, să reduci stresul și să depășești sindromul impostorului. Dezvoltă abilitățile necesare pentru bunăstarea și succesul profesional pe termen lung."
-      },
-      "3": {
-        "title": "Cum să Dai Interviuri",
-        "date": "21 noiembrie, 20:00",
-        "description": "Stăpânește abilitățile de interviu cu Cristina Gogozan. Învață tehnici de pregătire, cercetare a companiei și comunicare încrezătoare. Câștigă instrumente practice pentru a face o impresie puternică și pentru a ieși în evidență în orice interviu."
-      },
-      "4": {
-        "title": "Cum să Începi un Startup",
-        "date": "7 noiembrie, 18:00",
-        "description": "Explorează elementele fundamentale ale antreprenoriatului cu Georgina Lupu. Învață să identifici idei de afaceri, să creezi planuri și să obții finanțare. Descoperă provocările și mentalitatea necesară pentru succesul unui startup."
-      },
-      "5": {
-        "title": "Cum să Creezi un CV",
-        "date": "30 octombrie, 18:00",
-        "description": "Creează CV-uri convingătoare cu Mariana Irimia. Învață să evidențiezi abilitățile, să eviți greșelile comune și să adaptezi conținutul pentru diferite industrii. Stăpânește arta de a face calificările tale să iasă în evidență pentru angajatori."
+        "title": "Own Your Minute – Win the Interview",
+        "date": "9 Decembrie",
+        "description": "În cadrul sesiunii s-au discutat și aspecte practice legate de comportamentul în timpul interviului. A fost prezentat modul de construire a unui elevator pitch clar și convingător, sub conceptul „Own Your Minute”. De asemenea, au fost oferite exemple de întrebări relevante și inteligente pe care candidații le pot adresa la finalul interviului. S-a pus accent pe atitudinea potrivită pe durata interviului, incluzând limbajul non-verbal, gestionarea emoțiilor și importanța ascultării active. Au fost evidențiate greșelile frecvente întâlnite la interviuri, împreună cu recomandări concrete pentru a le evita. În funcție de timpul disponibil, a fost realizată și o scurtă demonstrație de tip mock interview."
       }
     },
     "contest": {
@@ -307,10 +296,11 @@
     },
     "infonight": {
       "title": "La ce să te aștepți la InfoNight?",
-      "summary": "Vrei să-ți lansezi cariera? La InfoNight te conectezi direct cu companii de top, profesioniști din industrie și mentori care te pot ghida spre viitorul tău profesional.",
+      "summary": "",
       "expandableContent": {
         "paragraphs": [
-          "Fie că ești în căutarea unui stagiu, a unui job sau a unor sfaturi de carieră, aici vei găsi oportunități reale și feedback personalizat pentru CV."
+          "Evenimentul InfoNight, desfășurat pe 1 aprilie 2026 la HUB UTCN, a reunit peste 200 de studenți într-un cadru interactiv dedicat oportunităților de carieră. Participanții au avut ocazia să descopere internshipuri și să interacționeze direct cu reprezentanții companiilor, obținând informații valoroase despre cerințele pieței muncii și pașii necesari pentru a-și construi un parcurs profesional solid.",
+          "Atmosfera a fost dinamică și deschisă, facilitând conexiuni reale între mediul academic și cel profesional. InfoNight și-a atins scopul de a aduce mai aproape studenții de oportunitățile existente, oferindu-le atât inspirație, cât și resurse concrete pentru dezvoltarea lor viitoare."
         ],
         "benefits": {
           "title": "De ce să participi:",
@@ -350,6 +340,22 @@
       "buttons": {
         "readMore": "Citește mai mult",
         "showLess": "Arată mai puțin"
+      }
+    },
+    "interviews": {
+      "title": "La ce să te aștepți de la Simulările de Interview?",
+      "summary": "",
+      "expandableContent": {
+        "paragraphs": [
+          "Simulările de interviu din cadrul InfoTech au fost organizate pentru studenții de la principalele ramuri din UTCN, Electro, Mecanică și Construcții,  și au oferit o experiență cât mai apropiată de un interviu real. Activitățile s-au desfășurat pe parcursul a două săptămâni, în perioadele 16–19 martie și 23–26 martie.",
+          "La Electro, studenții au avut ocazia să discute cu reprezentanți de la ThunderTeam și AROBS, la Construcții au participat Hunnebeck și Kesz, iar la Mecanică interviurile au fost susținute de Emerson.",
+          "În total, s-au desfășurat peste 40 de interviuri, în care participanții au primit feedback direct și au putut să înțeleagă mai bine cum arată un proces real de recrutare. Experiența i-a ajutat să capete mai multă încredere și să se pregătească mai bine pentru viitoarele oportunități."
+        ],
+        "benefits": {
+          "title": "",
+          "items": []
+        },
+        "conclusion": []
       }
     },
     "roles": {

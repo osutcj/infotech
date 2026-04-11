@@ -8,20 +8,20 @@
   {
     "name": "Murariu Georgiana",
     "role": "Coordinator",
-    "image": "images/echipa/georgiana.webp",
+    "image": "images/echipa/georgi1.webp",
     "email": "georgiamurariu@gmail.com"
   },
   {
-    "name": "Pavel Luca",
-    "role": "Secretary",
-    "image": "images/echipa/luca.webp",
-    "email": "lucapavel25@gmail.com"
+    "name": "Seceac Alexandru",
+    "role": "Co-coordinator",
+    "image": "images/echipa/seceac1.webp",
+    "email": "alexzzz626@gmail.com"
   },
   {
-    "name": "Duică Sebastian",
+    "name": "Popa Andrei",
     "role": "Co-coordinator",
-    "image": "images/echipa/sebi.webp",
-    "email": "sebi.duica@gmail.com"
+    "image": "images/echipa/popicu1.webp",
+    "email": "cristianandrei2305@gmail.com"
   },
   {
     "name": "Galis Bogdan",
@@ -32,13 +32,13 @@
   {
     "name": "Stan Giulia",
     "role": "Co-coordinator",
-    "image": "images/echipa/giulia.webp",
+    "image": "images/echipa/giulia1.webp",
     "email": "algistop47@gmail.com"
   },
   {
     "name": "Zinici Diana",
-    "role": "Co-coordinator",
-    "image": "images/echipa/diana.webp",
+    "role": "Secretary",
+    "image": "images/echipa/diana1.webp",
     "email": "dianazinici2005@gmail.com"
   }
 ]

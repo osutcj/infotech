@@ -9,6 +9,15 @@
   --color-background: #0c091e;
   --color-foreground: #ffffff;
 }
+OverScroll behavior html,
+body {
+  overflow-x: hidden;
+  background: #0c091e;
+}
+
+html {
+  overscroll-behavior: none;
+}
 
 /* Smooth scrolling */
 html {
