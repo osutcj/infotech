@@ -38,7 +38,7 @@ export default function EventDialog({
       <DialogDescription className="sr-only">
         {t.eventDialog.dialogDescription.replace("{eventTitle}", event.title)}
       </DialogDescription>
-      <DialogContent className="bg-gray-900/90 backdrop-blur-xl border-0 rounded-xl p-0 overflow-hidden w-[95vw] max-w-md md:max-w-2xl max-h-[90vh] flex flex-col">
+      <DialogContent className="bg-gray-900/90 backdrop-blur-xl border-0 rounded-xl p-0 overflow-hidden w-[95vw] max-w-md md:max-w-2xl max-h-[82vh] flex flex-col">
         <div className="absolute inset-0 rounded-xl z-0">
           <div className="absolute inset-0 rounded-xl before:absolute before:inset-0 before:rounded-xl before:p-px before:bg-linear-to-b before:from-purple-500/30 before:via-purple-500/15 before:to-transparent before:pointer-events-none" />
 

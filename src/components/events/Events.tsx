@@ -29,7 +29,7 @@ export default function Events({ dictionary }: EventsProps) {
       </h2>
 
       <Tabs defaultValue="contest" className="w-full">
-        <TabsList className="grid mx-auto h-12 md:h-14 grid-cols-5 mb-8 bg-gray-800/50 backdrop-blur-sm border border-purple-500/30">
+        <TabsList className="flex flex-wrap justify-center h-auto md:grid md:grid-cols-5 md:h-14 mx-auto mb-8 bg-gray-800/50 backdrop-blur-sm border border-purple-500/30 p-1">
           {Object.entries(TabNames).map(([key, label]) => {
             const tab = key as ActiveTab;
             return (
