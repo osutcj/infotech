@@ -41,7 +41,7 @@ export default function TrainingsTab({ dictionary }: TrainingsTabProps) {
         {events.map((event) => (
           <Card
             key={event.id}
-            className="relative overflow-hidden bg-gray-900/40 backdrop-blur-xl border-0 rounded-xl transition-all duration-300 group cursor-pointer h-[420px]"
+            className="relative overflow-hidden bg-gray-900/40 backdrop-blur-xl border-0 rounded-xl transition-all duration-300 group cursor-pointer h-105"
             onClick={() => handleEventSelect(event)}
           >
             <div className="absolute inset-0 rounded-xl ring-1 ring-inset ring-purple-500/20 pointer-events-none z-20" />

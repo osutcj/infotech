@@ -7,6 +7,7 @@ import InfoNightTab from "@/components/events/tabs/InfoNightTab";
 import InfoWeekTab from "@/components/events/tabs/InfoWeekTab";
 import { ActiveTab } from "@/types/ActiveTab";
 import { Dictionary } from "@/i18n/getDictionary";
+import InterviewsTab from "./tabs/InterviewsTab";
 
 interface EventsProps {
   dictionary: Dictionary;
@@ -18,6 +19,7 @@ export default function Events({ dictionary }: EventsProps) {
     infonight: dictionary.events.tabs.infonight,
     infoweek: dictionary.events.tabs.infoweek,
     trainings: dictionary.events.tabs.trainings,
+    interviews: dictionary.events.tabs.interviews,
   };
 
   return (
@@ -27,7 +29,7 @@ export default function Events({ dictionary }: EventsProps) {
       </h2>
 
       <Tabs defaultValue="contest" className="w-full">
-        <TabsList className="grid mx-auto h-12 md:h-14 grid-cols-4 mb-8 bg-gray-800/50 backdrop-blur-sm border border-purple-500/30">
+        <TabsList className="flex flex-wrap justify-center h-auto md:grid md:grid-cols-5 md:h-14 mx-auto mb-8 bg-gray-800/50 backdrop-blur-sm border border-purple-500/30 p-1">
           {Object.entries(TabNames).map(([key, label]) => {
             const tab = key as ActiveTab;
             return (
@@ -56,6 +58,10 @@ export default function Events({ dictionary }: EventsProps) {
 
         <TabsContent value="contest" className="mt-0">
           <ContestTab dictionary={dictionary} />
+        </TabsContent>
+
+        <TabsContent value="interviews" className="mt-0">
+          <InterviewsTab dictionary={dictionary} />
         </TabsContent>
       </Tabs>
     </section>

@@ -1,1 +1,1 @@
-export type ActiveTab = "trainings" | "contest" | "infonight" | "infoweek";
+export type ActiveTab = "trainings" | "contest" | "infonight" | "infoweek" | "interviews";

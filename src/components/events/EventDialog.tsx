@@ -38,7 +38,7 @@ export default function EventDialog({
       <DialogDescription className="sr-only">
         {t.eventDialog.dialogDescription.replace("{eventTitle}", event.title)}
       </DialogDescription>
-      <DialogContent className="bg-gray-900/90 backdrop-blur-xl border-0 rounded-xl p-0 overflow-hidden w-[95vw] max-w-md md:max-w-2xl max-h-[90vh] flex flex-col">
+      <DialogContent className="bg-gray-900/90 backdrop-blur-xl border-0 rounded-xl p-0 overflow-hidden w-[95vw] max-w-md md:max-w-2xl max-h-[82vh] flex flex-col">
         <div className="absolute inset-0 rounded-xl z-0">
           <div className="absolute inset-0 rounded-xl before:absolute before:inset-0 before:rounded-xl before:p-px before:bg-linear-to-b before:from-purple-500/30 before:via-purple-500/15 before:to-transparent before:pointer-events-none" />
 
@@ -50,7 +50,7 @@ export default function EventDialog({
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
-          className="relative z-10 flex flex-col h-full"
+          className="relative z-10 flex flex-col h-full overflow-y-auto"
         >
           <div className="absolute top-3 right-3 z-50">
             <Button
@@ -63,16 +63,17 @@ export default function EventDialog({
             </Button>
           </div>
 
-          <div className="relative h-42 md:h-60 bg-linear-to-r from-purple-900/40 to-indigo-900/40 overflow-hidden">
-            <div className="absolute inset-0 bg-linear-to-b from-gray-900/0 to-gray-900 z-10" />
+          <div className="relative z-10 shrink-0 grow-0 border-b border-gray-800 bg-gray-900/80">
             {event.image && (
               <Image
                 src={
                   event.image?.startsWith("/") ? event.image : `/${event.image}`
                 }
                 alt={event.title}
-                fill
-                className="object-cover opacity-60"
+                width={800} // Adăugăm lățime responsivă
+                height={400} // Adăugăm înălțime responsivă
+                className="w-full h-auto max-h-100 object-cover object-top opacity-60 rounded-t-xl"
+                // object-top asigură că nu se taie capul oamenilor, rounded-t-xl repară marginile de sus
                 sizes="(max-width: 768px) 95vw, 672px"
               />
             )}
@@ -82,7 +83,7 @@ export default function EventDialog({
             {event.title}
           </h2>
 
-          <div className="px-4 py-2 pb-4 md:px-6 overflow-y-auto grow">
+          <div className="px-4 py-2 pb-4 md:px-6 grow">
             <div className="flex flex-col gap-3 mb-6">
               <div className="flex items-center space-x-3 bg-gray-800/50 backdrop-blur-sm p-3 rounded-lg border border-gray-700/50 flex-1">
                 <div className="bg-purple-500/20 p-2 rounded-md shrink-0">
@@ -131,7 +132,7 @@ export default function EventDialog({
               <h3 className="text-lg font-medium text-white">
                 {t.eventDialog.eventDescription}
               </h3>
-              <div className="text-sm md:text-base text-gray-300 leading-relaxed space-y-4">
+              <div className="text-sm md:text-base text-gray-300 leading-relaxed space-y-4 text-justify">
                 <p>{event.description}</p>
               </div>
             </div>

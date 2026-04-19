@@ -103,12 +103,12 @@ function TeamMemberCard({
         "before:absolute before:inset-0 before:rounded-xl before:p-px before:bg-linear-to-b before:from-purple-500/40 before:to-transparent before:pointer-events-none",
         "after:absolute after:inset-0 after:rounded-xl after:p-px after:bg-linear-to-t after:from-purple-600/20 after:to-transparent after:pointer-events-none",
         "shadow-[0_8px_30px_rgba(0,0,0,0.3)] hover:shadow-[0_8px_30px_rgba(147,51,234,0.2)]",
-        isHovered ? "transform scale-[1.02]" : ""
+        isHovered ? "transform scale-[1.02]" : "",
       )}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="relative h-[400px]">
+      <div className="relative h-100">
         <div
           className="absolute inset-0 bg-linear-to-t from-black/90 to-transparent opacity-0 transition-opacity duration-300 z-10 rounded-t-xl"
           style={{ opacity: isHovered ? 0.8 : 0 }}
