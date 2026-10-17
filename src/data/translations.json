@@ -20,8 +20,8 @@
         },
         "nextEvent": {
           "title": "Next Event",
-          "eventName": "From Circuits to Careers",
-          "date": "14th of April 2026",
+          "eventName": "ContestNight",
+          "date": "20th of October 2026",
           "url": "https://docs.google.com/forms/d/e/1FAIpQLScutarDMZewHM3Dq-CBeNg-FwmMppcJPci8JUbGn8zM0glGWw/viewform",
           "countdown": {
             "days": "Days",
@@ -31,16 +31,10 @@
           }
         },
         "activeMembers": {
-          "title": "Active Members",
-          "count": "100+"
-        },
-        "projectsCompleted": {
           "count": "50+",
-          "title": "Projects Completed",
-          "subtitle": "Tech Innovations"
+          "title": "Active Members"
         }
       },
-      "button": "Join Now →",
       "imageAlt": "InfoTech Background"
     },
     "events": {
@@ -204,8 +198,8 @@
         },
         "nextEvent": {
           "title": "Următorul Eveniment",
-          "eventName": "From Circuits to Careers",
-          "date": "14 aprilie 2026",
+          "eventName": "ContestNight",
+          "date": "20 octombrie 2026",
           "url": "https://docs.google.com/forms/d/e/1FAIpQLScutarDMZewHM3Dq-CBeNg-FwmMppcJPci8JUbGn8zM0glGWw/viewform",
           "countdown": {
             "days": "Zile",
@@ -216,15 +210,9 @@
         },
         "activeMembers": {
           "title": "Membri Activi",
-          "count": "100+"
-        },
-        "projectsCompleted": {
-          "count": "50+",
-          "title": "Proiecte Finalizate",
-          "subtitle": "Inovații Tehnologice"
+          "count": "50+"
         }
       },
-      "button": "Înscrie-te acum →",
       "imageAlt": "Fundal InfoTech"
     },
     "events": {

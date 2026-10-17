@@ -1,44 +1,44 @@
 [
   {
-    "name": "Ciotea Alexandra",
+    "name": "Coș Tudor",
     "role": "BC Responsible",
-    "image": "images/echipa/lexa.webp",
-    "email": "lexaciotea@gmail.com"
+    "image": "images/echipa/Tudor-Cos.webp",
+    "email": "Tudor.cos@osutcluj.com"
   },
   {
-    "name": "Murariu Georgiana",
+    "name": "Zinici Diana",
     "role": "Coordinator",
-    "image": "images/echipa/georgi1.webp",
-    "email": "georgiamurariu@gmail.com"
+    "image": "images/echipa/Zinici-Diana.webp",
+    "email": "Diana.zinici@osutcluj.com"
+  },
+  {
+    "name": "Istrate Alexandra",
+    "role": "Secretary",
+    "image": "images/echipa/Istrate-Alexandra.webp",
+    "email": "alexandraistrate004@yahoo.com"
+  },
+  {
+    "name": "Gyorgy Edward",
+    "role": "Co-coordinator",
+    "image": "images/echipa/Gyorgy-Edward1.webp",
+    "email": "gyorgyedward65@gmail.com"
   },
   {
     "name": "Seceac Alexandru",
     "role": "Co-coordinator",
-    "image": "images/echipa/seceac1.webp",
+    "image": "images/echipa/Seceac-Alexandru.webp",
     "email": "alexzzz626@gmail.com"
-  },
-  {
-    "name": "Popa Andrei",
-    "role": "Co-coordinator",
-    "image": "images/echipa/popicu1.webp",
-    "email": "cristianandrei2305@gmail.com"
-  },
-  {
-    "name": "Galis Bogdan",
-    "role": "Co-coordinator",
-    "image": "images/echipa/galis.webp",
-    "email": "6decembrie2017@gmail.com"
   },
   {
     "name": "Stan Giulia",
     "role": "Co-coordinator",
-    "image": "images/echipa/giulia1.webp",
+    "image": "images/echipa/Stan-Giulia.webp",
     "email": "algistop47@gmail.com"
   },
   {
-    "name": "Zinici Diana",
-    "role": "Secretary",
-    "image": "images/echipa/diana1.webp",
-    "email": "dianazinici2005@gmail.com"
+    "name": "Steavu Irina",
+    "role": "Co-coordinator",
+    "image": "images/echipa/Steavu-Irina.webp",
+    "email": "irinasteavu@gmail.com"
   }
 ]
