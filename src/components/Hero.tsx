@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Dictionary } from "@/i18n/getDictionary";
 
@@ -14,7 +13,7 @@ interface HeroProps {
 export default function Hero({ dictionary }: HeroProps) {
   const t = dictionary;
 
-  const nextEventDate = new Date("2026-04-14T19:00:00").getTime();
+  const nextEventDate = new Date("2026-10-20T19:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -143,38 +142,15 @@ export default function Hero({ dictionary }: HeroProps) {
                 </div>
               </div>
             </div>
-            <Button
-              variant="outline"
-              onClick={() => {
-                window.location.href = t.hero.cards.nextEvent.url;
-              }}
-              className="py-5 px-4 md:text-lg bg-transparent font-display  border-purple-500/30 text-purple-300 backdrop-blur-md shadow-lg shadow-purple-500/20 hover:bg-purple-500/10 transition-all duration-300"
-            >
-              {t.hero.button}
-            </Button>
           </div>
 
           <div className="absolute md:bottom-6 md:left-6 bottom-2 left-2">
             <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
-              <div className="text-white text-xs mb-2">
-                {t.hero.cards.activeMembers.title}
-              </div>
               <div className="text-lg font-bold text-white">
                 {t.hero.cards.activeMembers.count}
               </div>
-            </div>
-          </div>
-
-          <div className="absolute bottom-6 left-40 hidden md:block">
-            <div className="bg-white/10 backdrop-blur-md rounded-lg p-4 border border-white/20">
-              <div className="text-lg font-bold text-white">
-                {t.hero.cards.projectsCompleted.count}
-              </div>
               <div className="text-white text-xs">
-                {t.hero.cards.projectsCompleted.title}
-              </div>
-              <div className="text-white text-xs">
-                {t.hero.cards.projectsCompleted.subtitle}
+                {t.hero.cards.activeMembers.title}
               </div>
             </div>
           </div>
