@@ -119,6 +119,7 @@ function TeamMemberCard({
           }
           fill
           className="object-cover rounded-t-xl"
+          style={{ objectPosition: member.imagePosition ?? "center" }}
           alt={member.name}
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
         />
