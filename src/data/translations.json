@@ -20,8 +20,8 @@
         },
         "nextEvent": {
           "title": "Next Event",
-          "eventName": "ContestNight",
-          "date": "20th of October 2026",
+          "eventName": "Workshop:\nHow To Find An Internship",
+          "date": "11th of November 2026",
           "url": "https://docs.google.com/forms/d/e/1FAIpQLScutarDMZewHM3Dq-CBeNg-FwmMppcJPci8JUbGn8zM0glGWw/viewform",
           "countdown": {
             "days": "Days",
@@ -31,8 +31,8 @@
           }
         },
         "activeMembers": {
-          "count": "50+",
-          "title": "Active Members"
+          "count": "30+",
+          "title": "Participants"
         }
       },
       "imageAlt": "InfoTech Background"
@@ -198,8 +198,8 @@
         },
         "nextEvent": {
           "title": "Următorul Eveniment",
-          "eventName": "ContestNight",
-          "date": "20 octombrie 2026",
+          "eventName": "Workshop:\nHow To Find An Internship",
+          "date": "11 noiembrie 2026",
           "url": "https://docs.google.com/forms/d/e/1FAIpQLScutarDMZewHM3Dq-CBeNg-FwmMppcJPci8JUbGn8zM0glGWw/viewform",
           "countdown": {
             "days": "Zile",
@@ -209,8 +209,8 @@
           }
         },
         "activeMembers": {
-          "title": "Membri Activi",
-          "count": "50+"
+          "title": "Participanți",
+          "count": "30+"
         }
       },
       "imageAlt": "Fundal InfoTech"

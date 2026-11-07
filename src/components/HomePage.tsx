@@ -26,7 +26,7 @@ export default function HomePage({ dictionary }: HomePageProps) {
 
       <TeamMemberCards dictionary={dictionary} />
 
-      <Sponsors dictionary={dictionary} />
+      {/* <Sponsors dictionary={dictionary} /> */}
 
       <Footer />
     </div>
