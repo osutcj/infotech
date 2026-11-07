@@ -13,7 +13,7 @@ interface HeroProps {
 export default function Hero({ dictionary }: HeroProps) {
   const t = dictionary;
 
-  const nextEventDate = new Date("2026-10-20T19:00:00").getTime();
+  const nextEventDate = new Date("2026-11-11T19:00:00").getTime();
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -100,7 +100,7 @@ export default function Hero({ dictionary }: HeroProps) {
               <div className="text-white text-sm font-semibold mb-2">
                 {t.hero.cards.nextEvent.title}
               </div>
-              <div className="text-lg font-semibold text-purple-200 mb-1 font-display">
+              <div className="text-lg font-semibold text-purple-200 mb-1 font-display whitespace-pre-line">
                 {t.hero.cards.nextEvent.eventName}
               </div>
               <div className="text-white text-xs mb-3">
